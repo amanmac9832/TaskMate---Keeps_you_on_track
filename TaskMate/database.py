@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
-SQLALCHEMY_DATABASE_URL = 'postgresql://postgres.hnxccfecmsqelcjqxhqp:[$Macaman123%40%23%24]@aws-0-ap-south-1.pooler.supabase.com:6543/postgres?sslmode=require'
+SQLALCHEMY_DATABASE_URL = 'postgresql://postgres.hnxccfecmsqelcjqxhqp:[%24Macaman123%40%23%24]@aws-0-ap-south-1.pooler.supabase.com:6543/postgres?sslmode=require'
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
