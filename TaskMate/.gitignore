@@ -1,0 +1,6 @@
+/alembic/
+/test/
+alembic.ini  
+testdb.db
+todosapp.db
+.pytest_cache
